@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile",
+            "command": "make",
+            "args": [
+                "-j",
+                "5"
+            ],
+            "problemMatcher": "$gcc",
+            "group": "test"
+        }
+    ]
+}

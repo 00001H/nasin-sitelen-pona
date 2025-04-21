@@ -1,0 +1,40 @@
+radicals
+
+q = ijo
+w = (pana emitters)
+e = <many>
+r = poki
+t = (animal root)
+y = (mani horns)
+u = (curve)
+i = (vertical bar)
+o = <left>
+p = <with features from / nesting>
+
+a = (oval)
+s = (dot)
+d = <disambiguation prefix>
+f = <break apart>
+g = linja
+h = sijelo
+j = (kule triangle)
+k = <bottom>
+l = (undeline)
+
+z = (many curves)
+x = ala
+c = lipu
+v = nimi
+b = (sharp corner)
+n = en
+m = luka
+
+keys that directly correspond to words
+
+= = sama
+/ = li
+\ = e
+? = seme
+' = pi
+; = la
+* = lete

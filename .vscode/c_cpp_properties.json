@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Default",
+            "cppStandard": "c++23",
+            "includePath": [
+                "${default}",
+                "src",
+                "/usr/include/Fcitx5/Core",
+                "/usr/include/Fcitx5/Config",
+                "/usr/include/Fcitx5/Utils"
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
