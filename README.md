@@ -13,6 +13,7 @@ Requires `gcc` and `python`. If GCC complains that it doesn't know about `-std=c
 ## Usage
 
 The file `nsp-map` should be created in your user home directory. You can customize it however you want. Each line of the file is of the form `nimi ab [cd...]` where `nimi` is a toki pona word (must be supported by UCSUR), and is followed by one or more keystroke sequences.
+(Note: You need to restart fcitx every time you change this file.)
 
 To maximize typing efficiency, words are inserted immediately once the keystrokes are typed, meaning that no keystroke sequence can be a prefix of another. The utility script `check-conflicts.py` attempts to check this, but is not perfect. (Specifically, it fails to recognize a sequence that is a prefix of a longer sequence that appeared *earlier* in the file.)
 
