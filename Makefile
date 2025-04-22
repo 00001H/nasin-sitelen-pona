@@ -6,7 +6,7 @@ install: bin/main.so src/ime.conf src/addon.conf src/icon.svg build/drop-icons.p
 	sudo cp src/ime.conf /usr/share/fcitx5/inputmethod/nasin-sitelen-pona.conf
 	sudo cp bin/main.so /usr/lib/fcitx5/nasin-sitelen-pona.so
 	sudo cp --update=none src/default.txt $(HOME)/nsp-map
-	sudo build/drop-icons.py src/icon.svg fcitx-sitelen-lili-pi-nasin-sitelen-pona.svg /usr/share/icons/breeze
+	sudo cp src/icon.svg /usr/share/icons/hicolor/scalable/status/fcitx-sitelen-lili-pi-nasin-sitelen-pona.svg
 	@echo [32mInstallation completed successfully. Reboot system to load the IME icon[0m
 bin/main.so: src/main.cpp $(HEADERS)
 	g++ -fPIC --shared $< -o $@ $(FINALOPT)

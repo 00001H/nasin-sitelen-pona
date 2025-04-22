@@ -8,7 +8,7 @@
 
 Just clone the repository, then invoke `make`.
 
-Requires `gcc` and `python`. If GCC complains that it doesn't know about `-std=c++26`, try with `-std=c++23` or (untested) `-std=c++20`. If python is not available and the IME icon isn't particularly important, you can remove the line in the Makefile that installs the icons.
+Requires `gcc`.  If GCC complains that it doesn't know about `-std=c++26`, try with `-std=c++23` or (untested) `-std=c++20`.
 
 ## Usage
 
