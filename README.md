@@ -6,7 +6,9 @@
 
 ## Installation
 
-Just clone the repository, then invoke `make`.
+Clone the repository, create an empty folder called `bin`, then invoke `make`.
+
+**KNOWN ISSUE: As cp is used instead of install, ~/nsp-map won't be accessibly by default. Manually run `sudo chown <your user> ~/nsp-map`, `sudo chgrp <your group> ~/nsp-map`, and `chmod a+rw ~/nsp-map`.**
 
 Requires `gcc`.  If GCC complains that it doesn't know about `-std=c++26`, try with `-std=c++23` or (untested) `-std=c++20`.
 
