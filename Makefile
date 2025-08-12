@@ -1,7 +1,7 @@
 COMPOPT := -std=c++26 -flto -fuse-linker-plugin -Wall -Wextra -Wpedantic -m64 -O3 -I"/usr/include/Fcitx5/Core" -I"/usr/include/Fcitx5/Config"  -I"/usr/include/Fcitx5/Utils"
 FINALOPT := $(COMPOPT) -s
 HEADERS := $(wildcard src/*.hpp)
-install: bin/main.so src/ime.conf src/addon.conf src/icon.svg build/drop-icons.py src/default.txt
+install: bin/main.so src/ime.conf src/addon.conf src/icon.svg src/default.txt
 	sudo cp src/addon.conf /usr/share/fcitx5/addon/nasin-sitelen-pona.conf
 	sudo cp src/ime.conf /usr/share/fcitx5/inputmethod/nasin-sitelen-pona.conf
 	sudo cp bin/main.so /usr/lib/fcitx5/nasin-sitelen-pona.so
